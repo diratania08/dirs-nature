@@ -26,17 +26,56 @@
       <a href="#" class="navbar-logo">Jelajah<span>alam</span></a>
 
       <div class="navbar-nav">
-        <a href="#home">Home</a>
+        <a href="#home">Beranda</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here ..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/produk1.jpg" alt="Produk 1" />
+          <div class="item-detail">
+            <h3>Paket Perlengkapan Camping A</h3>
+            <div class="item-price">Rp 1.700.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk1.jpg" alt="Produk 1" />
+          <div class="item-detail">
+            <h3>Paket Perlengkapan Camping A</h3>
+            <div class="item-price">Rp 1.700.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk1.jpg" alt="Produk 1" />
+          <div class="item-detail">
+            <h3>Paket Perlengkapan Camping A</h3>
+            <div class="item-price">Rp 1.700.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart Start -->
     </nav>
     <!-- Navbar End -->
 
@@ -54,7 +93,7 @@
 
     <!-- About Section Start -->
     <section id="about" class="about">
-      <h2><span>Tentang</span>Kami</h2>
+      <h2><span>Tentang </span>Kami</h2>
 
       <div class="row">
         <div class="about-img">
@@ -72,10 +111,15 @@
             consequuntur fugit at.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-            quod. Sint, eos. Quis animi rem sequi aliquid fugiat earum in
-            repudiandae quo officia consequuntur reiciendis laborum aperiam,
-            fuga mollitia error, pariatur ab illo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            similique, iure et sapiente necessitatibus recusandae a nihil
+            repudiandae distinctio amet velit obcaecati aliquid dolore quisquam.
+            Maiores veniam molestias eos rerum est sunt quisquam nostrum
+            similique. Esse, voluptates! Est inventore error perspiciatis
+            architecto exercitationem, excepturi quos sapiente totam natus
+            laudantium, eveniet consequuntur pariatur ullam, nobis nulla
+            consectetur. Doloremque quo exercitationem nobis iusto, inventore
+            maiores numquam magnam odio iure assumenda alias praesentium.
           </p>
         </div>
       </div>
@@ -84,7 +128,7 @@
 
     <!-- Menu Section Start -->
     <section id="menu" class="menu">
-      <h2><span>Menu</span>Kami</h2>
+      <h2><span>Menu </span>Kami</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
         necessitatibus nemo cumque sit sed ducimus?
@@ -120,9 +164,94 @@
     </section>
     <!-- Menu Section End -->
 
+    <!-- Product Section Start -->
+    <section class="products" id="products">
+      <h2><span>Produk Paketan</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+        laudantium ullam modi hic, eligendi beatae.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk1.jpg" alt="Produk Paket" />
+          </div>
+          <div class="product-content">
+            <h3>Paket Perlengkapan Camping A</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+            <div class="product-price">
+              Rp 1.700.000 <span>Rp 1.900.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk1.jpg" alt="Produk Paket" />
+          </div>
+          <div class="product-content">
+            <h3>Paket Perlengkapan Camping B</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              Rp 1.700.000 <span>Rp 1.900.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk1.jpg" alt="Produk Paket" />
+          </div>
+          <div class="product-content">
+            <h3>Paket Perlengkapan Camping C</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              Rp 1.700.000 <span>Rp 1.900.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
-      <h2><span>Kontak</span>Kami</h2>
+      <h2><span>Kontak</span> Kami</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fuga.
       </p>
@@ -167,6 +296,7 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
@@ -175,6 +305,38 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- Modal Box Item Detail Start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk1.jpg" alt="Produk 1" />
+          <div class="product-content">
+            <h3>Paket A</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              cumque ab numquam accusamus mollitia assumenda voluptatem, porro
+              repudiandae quam debitis officiis culpa minus aperiam provident.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              Rp 1.700.000 <span>Rp 1.900.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail End -->
 
     <!-- Feather Icons -->
     <script>
